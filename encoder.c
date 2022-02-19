@@ -21,15 +21,15 @@ int main(int argc, char *argv[]) {
     FILE *txtoutptr;
     char *buffer;
     long filelen;
-    if ((fptr = fopen("/Users/connor/Documents/CodeProjects/c_dropper/yuh.png", "rb")) == NULL) {
+    if ((fptr = fopen("yuh.png", "rb")) == NULL) {
         printf("Error: failed to get handle to file.");
         exit(1);
     }
-    if ((outptr = fopen("/Users/connor/Documents/CodeProjects/c_dropper/encoded", "wb")) == NULL) {
+    if ((outptr = fopen("encoded.bin", "wb")) == NULL) {
         printf("Error: failed to get handle to output file.");
         exit(1);
     }
-    if ((txtoutptr = fopen("/Users/connor/Documents/CodeProjects/c_dropper/encoded.c", "w")) == NULL) {
+    if ((txtoutptr = fopen("encoded.c", "w")) == NULL) {
         printf("Error: failed to get handle to output file.");
         exit(1);
     }
