@@ -1,6 +1,6 @@
-# Ceasar Salad Dropper
+# The SALAD TOSSER
 
-This is a simple dropper program that can dress wahtever file it drops up with some tasty ceasar cypher. From the cyphered bytes created by my encoder program, it will then write to disk those bytes (in this case a cute little png dude), and then open it (on mac at least. Command to open files may vary on another OS.)
+This is a simple dropper program that can dress whatever file it drops up with some tasty Caserean cypher. From the cyphered bytes created by my encoder program, it will then write to disk those bytes (in this case a cute little png dude), and then open it (on mac at least. Command to open files may vary on another OS.)
 
 ## Building
 
